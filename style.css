@@ -1,0 +1,81 @@
+.jumbotron{
+    background:url(https://freenaturestock.s3.us-east-1.amazonaws.com/1669.jpg);
+    height:600%;
+    background-size:100% 100%;
+}
+.logo{
+    width:75px;
+    height:75px;
+    
+}
+.features{
+    color:white;
+    
+}
+.features h1{
+    padding-top:60px;
+}
+.features .btn-default{
+    font-weight:bold;
+    color:white;
+    background:brown;
+    border-radius:10px;
+    margin-top:20px;
+    width:160px;
+    margin-right:15px;
+}
+.features .btn-default:hover{
+    background:purple;
+}
+.trial{
+    text-align:center;
+    padding:20px opx 40px 0;
+}
+.trial img{
+    width:200px;
+    height:70px;
+    margin:20px;
+}
+.footer{
+    background:#eee;
+    font-size:15px;
+    padding:10px 0;
+}
+@media (min-width:48px) and(max-width:760px){
+    .jumbotron{
+        height:410px;
+        width:0px;
+    }
+    .logo{
+        width:50px;
+        height:50px;
+    }
+    .features h1{
+        padding-top:30px;
+    }
+    .features p{
+        font-size:17px;
+    }
+    .features{
+        text-align:center;
+    }
+}
+@media(max-width:480px){
+    .jumbotron{
+        height:410px;
+        width:0px;
+    }
+    .logo{
+        width:40px;
+        height:50px;
+    }
+    .features h1{
+        padding-top:10px;
+    }
+    .features p, .features a{
+        font-size:13px;
+    }
+    .features{
+        text-align:center;
+    }
+}
